@@ -1,0 +1,57 @@
+Đỗ Văn Dũng
+msv: 23021492
+
+1. Docker, Docker-compose là gì?
+Docker là một nền tảng ảo hóa ở mức độ hệ điều hành giúp người dùng xây dựng, triển khai và chạy ứng dụng dễ dàng hơn bằng cách sử dụng các containers. Bằng cách đóng gói những thứ cần thiết như: mã nguồn, môi trường, các thư viện, cấu hình... vào containers và khi cần chạy sẽ chạy containers này.
+
+Docker-compose là một công cụ giúp  nghĩa và quản lý các ứng dụng Docker đa container dễ dàng hơn thông qua một file cấu hình thường là docker-compose.yml. 
+
+2. Linux vs Unix vs BSD hay *nix? macOS thuộc loại nào?
+*Linux*
+	- Phát hành lần  tiên vào 17/9/1991 bởi Linus Torvalds
+	- Linux là một hệ điều hành mã nguồn mở và miễn phí phát triển dựa trên Unix
+	- Các bản phân phối Linux phổ biến bao gồm Debian, Fedora Linux, Linux Mint, Arch Linux, và Ubuntu.
+	- Linux được thiết kế theo mô hình phân lớp chia thành 3 layer chính: Hardware layer (Phần cứng), Kernel 	layer(hạt nhân) và User Process layer.
+
+*Unix*
+	- Unix được viết vào những năm 1960 và 1970 do một số nhân viên của Bell Labs thuộc AT&T.
+	- Unix là một họ hệ điều hành máy tính đa nhiệm, đa người dùng có cấu trúc module, ổn định và bảo mật cao; 	đặt nền móng cho nhiều chuẩn hệ điều hành sau này.
+	- Các biến thể nổi tiếng như BSD, Xenix, macOS X và Linux.
+	- Hệ điều hành Unix được cấu trúc theo mô hình gồm Kernel (quản lý tài nguyên, phần cứng, bộ nhớ, xử lý 	lệnh) và Shell (giao diện dòng lệnh, diễn giải lệnh người dùng và yêu cầu Kernel thực thi)...
+
+*BSD*
+	- BSD (Berkeley Software Distribution) BSD xuất phát từ Đại học California, Berkeley vào thập niên 1970, 	phát triển dựa trên UNIX.
+	- BSD là mã nguồn mở, ổn định, bảo mật cao, thích hợp cho môi trường mạng và máy chủ.
+	- Đặt nền tảng cho nhiều hệ điều hành như FreeBSD, OpenBSD, NetBSD, và ảnh hưởng đến macOS, iOS.
+
+*nix
+	- Là thuật ngữ chung chỉ họ hệ điều hành giống hoặc dựa trên UNIX (như UNIX, Linux, BSD).
+	- Tuân theo triết lý UNIX – đa nhiệm, đa người dùng, ổn định, bảo mật, dùng shell/giao diện dòng lệnh mạnh 	mẽ.
+	- *nix bao trùm nhiều hệ điều hành hiện đại, nổi bật nhất là Linux, BSD và các hệ UNIX thương mại.
+
+*macOS thuộc loại nào? 
+	- Được Apple giới thiệu năm 2001 dựa trên nền tảng BSD/UNIX.
+	- Thuộc họ UNIX (đạt tiêu chuẩn UNIX 03), đồng thời cũng được coi là BSD dựa trên Unix.
+
+3. Alpine vs Ubuntu ?
+*Alpine* 
+	- Là một bản phân phối Linux (Linux distro) hướng đến sự tối giản trong thiết kế, giảm tối đa tài nguyên và 	dung lượng tiêu thụ nhưng đồng thời vẫn đảm bảo an toàn cho hệ thống.
+	- Cực kì nhẹ: container image Alpine ~ 5MB.
+	- Khởi động nhanh, ít tài nguyên, phù hợp cho container hoặc VM nhỏ.
+	- Nhược điểm: thiếu nhiều thư viện, công cụ; khó sử dụng hơn so với Ubuntu; dùng musl libc thay vì glibc 	nên một số phần mềm không tương thích hoàn toàn.
+
+*Ubuntu*
+	- Là một hệ điều hành máy tính dựa trên Debian GNU/Linux, một bản phân phối Linux thông dụng.
+	- Dễ sử dụng: có giao diện đồ họa và hỗ trợ tốt người dùng mới.
+	- Đa dạng phiên bản: Ubuntu Desktop, Ubuntu Server, Ubuntu Core, và cập nhật phiên bản định kì.
+	- Có cộng đồng đông đảo, nhiều tài liệu hỗ trợ.
+	- Nhược điểm: nặng hơn so vowus Alpine, ít tối ưu cho thiết bị nhỏ.
+
+4. VNC
+- VNC được phát triển vào giữa thập niên 1990 bởi AT&T Laboratories Cambridge.
+- VNC (Virtual Network Computing) là một công nghệ kĩ thuật dùng để chia sẻ giao diện màn hình từ xa, giúp người dùng hiển thị được màn hình của máy tính hoặc hệ thống ở xa ngay trên máy tính local của người dùng và có thể điều khiển thao tác qua kết nối mạng.
+- Ưu điểm: 
+	+ Đa nền tảng: server và client có thể chạy trên Windows, Linux, macOS và trên cả di động.
+	+ Đơn giản, dễ sử dụng
+	+ Truy cập từ xa
+- Hạn chế: Hiệu suất chậm so với một số giải pháp từ xa khác(như RDP của windows) đặc biệt khi có vấn đề về mạng; độ trễ cao khi xử ký đồ họa nặng như game.
